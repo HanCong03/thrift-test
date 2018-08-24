@@ -7,4 +7,6 @@ service PoiService {
     * 注释内容
     **/
     list<Poi> getAllOnlinePoiWithoutTenant(1:optional bool isDebug = true);
+    
+    Poi say();
 }
